@@ -186,8 +186,9 @@ h1, h2, h3, h4, h5, h6 {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: #268bd2;
   border-color: transparent;
+  transition: background 0.2s, color 0.2s;
 }
 
 @media (min-width: 48em) {
@@ -550,4 +551,36 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+.padding-top {
+  padding-top: 4rem;
+}
+
+.icon-links {
+  color: #514753;
+  padding-right: 5px;
+  box-shadow: 0 0 0 4px rgba(255,255,255,1);
+  transition: background 0.2s, color 0.2s;
+}
+
+.icon-links:hover {
+  background: rgba(255,255,255,1);
+  color: #268bd2;
+}
+
+.big-title {
+  color: #514753;
+  font-size: 3.25rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  transition: background 0.2s, color 0.2s;
+}
+
+.big-title:hover {
+  background: rgba(255,255,255,1);
+  color: #268bd2;
+  text-decoration: none;
 }
