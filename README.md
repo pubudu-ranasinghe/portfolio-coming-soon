@@ -1,1 +1,1 @@
-Based on [Lanyon](http://lanyon.getpoole.com) by [@mdo](https://twitter.com/mdo)
+Coming soon..
